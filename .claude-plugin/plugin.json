@@ -1,0 +1,23 @@
+{
+  "name": "font-foundry",
+  "description": "Recreate a font from a specimen image via bitmap tracing — picks a matching OFL base from Google Fonts, renders each glyph at 2000px/em, runs potrace, and builds a clean OTF with a new name.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Cody Hergenroeder",
+    "email": "plugins@codyh.xyz"
+  },
+  "homepage": "https://github.com/codyhxyz/font-foundry",
+  "repository": "https://github.com/codyhxyz/font-foundry",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "claude-skill",
+    "font",
+    "typography",
+    "type-design",
+    "potrace",
+    "fonttools",
+    "opentype"
+  ]
+}
