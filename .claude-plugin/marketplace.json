@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "font-copier",
-      "description": "Recreate a font from a specimen image via bitmap tracing — picks a matching OFL base from Google Fonts, renders each glyph at 2000px/em, runs potrace, and builds a clean OTF with a new name.",
+      "description": "All fonts are free now. Show Claude a font, walk away with your own OTF — OFL base from Google Fonts, 82 glyphs traced with potrace, clean TrueType rebuild.",
       "source": "./",
       "author": {
         "name": "Cody Hergenroeder",

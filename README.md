@@ -7,7 +7,7 @@
   <a href="https://claude.com/product/claude-code"><img src="https://img.shields.io/badge/built_for-Claude%20Code-d97706" alt="Built for Claude Code"></a>
 </p>
 
-<p align="center"><b>Show Claude a font you like — walk away with your own OTF of it.</b></p>
+<p align="center"><b>All fonts are free now.</b></p>
 
 <p align="center">
   <img src="docs/hero.gif" alt="font-copier demo" width="900">
