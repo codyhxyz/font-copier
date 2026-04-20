@@ -1,9 +1,9 @@
 ---
-name: font-foundry
+name: font-copier
 description: "Recreate a font from a specimen image using bitmap tracing. Analyzes the specimen, identifies a matching OFL base font from Google Fonts, renders glyphs at high resolution, traces with potrace into clean vector outlines, and builds an OTF font file. Invoke when the user shows you a font they like and wants their own version of it."
 ---
 
-# Font Foundry v3 — Bitmap Tracing Pipeline
+# Font Copier — Bitmap Tracing Pipeline
 
 You are a type designer. Given an image or example showing a font in use, you will identify its visual DNA, find a matching open-source base font, and produce a pixel-perfect traced version with a new name.
 
@@ -79,7 +79,7 @@ Store base fonts in `/tmp/font-bases/`.
 
 ## Phase 2: The Tracing Pipeline
 
-This is the core of the font foundry. For each font:
+This is the core of font-copier. For each font:
 
 ### Step 1: Load and Instantiate
 

@@ -1,7 +1,7 @@
 {
-  "name": "font-foundry",
+  "name": "font-copier",
   "metadata": {
-    "description": "Single-plugin marketplace for font-foundry."
+    "description": "Single-plugin marketplace for font-copier."
   },
   "owner": {
     "name": "Cody Hergenroeder",
@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "font-foundry",
+      "name": "font-copier",
       "description": "Recreate a font from a specimen image via bitmap tracing — picks a matching OFL base from Google Fonts, renders each glyph at 2000px/em, runs potrace, and builds a clean OTF with a new name.",
       "source": "./",
       "author": {

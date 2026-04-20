@@ -1,20 +1,20 @@
 <!-- auto:start — rewritten by scripts/sync-readme.sh from plugin.json; do not hand-edit between these markers -->
-<h1 align="center">font-foundry</h1>
+<h1 align="center">font-copier</h1>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-  <a href=".claude-plugin/plugin.json"><img src="https://img.shields.io/github/package-json/v/codyhxyz/font-foundry?filename=.claude-plugin%2Fplugin.json&label=version" alt="Version"></a>
+  <a href=".claude-plugin/plugin.json"><img src="https://img.shields.io/github/package-json/v/codyhxyz/font-copier?filename=.claude-plugin%2Fplugin.json&label=version" alt="Version"></a>
   <a href="https://claude.com/product/claude-code"><img src="https://img.shields.io/badge/built_for-Claude%20Code-d97706" alt="Built for Claude Code"></a>
 </p>
 
 <p align="center"><b>Show Claude a font you like — walk away with your own OTF of it.</b></p>
 
 <p align="center">
-  <img src="docs/hero.gif" alt="font-foundry demo" width="900">
+  <img src="docs/hero.gif" alt="font-copier demo" width="900">
 </p>
 <!-- auto:end -->
 
-Drop an image of a typeface into the chat and you end up with a renamed OTF that matches its silhouette. font-foundry identifies the closest OFL base font on Google Fonts, renders each glyph at 2000px/em, runs potrace over it, and stitches the result back into a TrueType `glyf` table with contour directions flipped the way TrueType expects. No hand-coded beziers, no blocking questions, no Glyphs license.
+Drop an image of a typeface into the chat and you end up with a renamed OTF that matches its silhouette. font-copier identifies the closest OFL base font on Google Fonts, renders each glyph at 2000px/em, runs potrace over it, and stitches the result back into a TrueType `glyf` table with contour directions flipped the way TrueType expects. No hand-coded beziers, no blocking questions, no Glyphs license.
 
 ## Before → After
 
@@ -34,21 +34,21 @@ Drop an image of a typeface into the chat and you end up with a renamed OTF that
 
 ```
 /plugin marketplace add codyhxyz/claude-plugins
-/plugin install font-foundry@codyhxyz-plugins
+/plugin install font-copier@codyhxyz-plugins
 ```
 
 ### Option 2 — install directly from this repo
 
 ```
-/plugin marketplace add codyhxyz/font-foundry
-/plugin install font-foundry@font-foundry
+/plugin marketplace add codyhxyz/font-copier
+/plugin install font-copier@font-copier
 ```
 
 ### Option 3 — local smoke test
 
 ```bash
-git clone https://github.com/codyhxyz/font-foundry
-claude --plugin-dir ./font-foundry
+git clone https://github.com/codyhxyz/font-copier
+claude --plugin-dir ./font-copier
 ```
 
 ### Prereqs

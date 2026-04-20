@@ -8,4 +8,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] — 2026-04-19
 
 ### Added
-- Initial release — `font-foundry` skill: specimen analysis, OFL base-font selection, render → potrace → Cu2QuPen pipeline, and OTF rebuild with new name table.
+- Initial release — `font-copier` skill: specimen analysis, OFL base-font selection, render → potrace → Cu2QuPen pipeline, and OTF rebuild with new name table.

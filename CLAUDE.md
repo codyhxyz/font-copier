@@ -1,4 +1,4 @@
-# font-foundry — Claude Code plugin
+# font-copier — Claude Code plugin
 
 This repo is a **Claude Code plugin**. The rules below apply to every session that opens anywhere in this tree. For the full end-to-end workflow (scaffold → build → test → host → submit), invoke the `create-claude-plugin` skill.
 
