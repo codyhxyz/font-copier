@@ -1,5 +1,5 @@
 {
-  "name": "font-copier",
+  "name": "font-pirate",
   "metadata": {
     "description": "Single-plugin marketplace for font-copier."
   },
@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "font-copier",
+      "name": "font-pirate",
       "description": "All fonts are free now. Show Claude a font, walk away with your own OTF — OFL base from Google Fonts, 82 glyphs traced with potrace, clean TrueType rebuild.",
       "source": "./",
       "author": {

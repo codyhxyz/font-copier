@@ -1,13 +1,13 @@
 {
-  "name": "font-copier",
+  "name": "font-pirate",
   "description": "All fonts are free now. Show Claude a font, walk away with your own OTF — OFL base from Google Fonts, 82 glyphs traced with potrace, clean TrueType rebuild.",
   "version": "0.1.0",
   "author": {
     "name": "Cody Hergenroeder",
     "email": "plugins@codyh.xyz"
   },
-  "homepage": "https://github.com/codyhxyz/font-copier",
-  "repository": "https://github.com/codyhxyz/font-copier",
+  "homepage": "https://github.com/codyhxyz/font-pirate",
+  "repository": "https://github.com/codyhxyz/font-pirate",
   "license": "MIT",
   "keywords": [
     "claude-code",
